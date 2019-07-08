@@ -3,10 +3,10 @@
   <Name>Python3-Runner</Name>
   <Date>2019-07-08</Date>
   <Description>
-	Allows running of python 3 programs in a docker on Unraid.
+	Allows running of python 2 programs in a docker on Unraid.
   </Description>
   <Overview>
-	Allows running of python 3 programs in a docker on Unraid.
+	Allows running of python 2 programs in a docker on Unraid.
   </Overview>
   <Support>None</Support>
   <Registry>https://registry.hub.docker.com/</Registry>
