@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>Python3-Runner</Name>
+  <Date>2019-07-08</Date>
+  <Description>
+	Allows running of python 3 programs in a docker on Unraid.
+  </Description>
+  <Overview>
+	Allows running of python 3 programs in a docker on Unraid.
+  </Overview>
+  <Support>None</Support>
+  <Registry>https://registry.hub.docker.com/</Registry>
+  <GitHub>None</GitHub>
+  <Repository>python:3</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>SERVERIP</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>SERVERPORT</Name>
+      <Value>8080</Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
+  <Beta>False</Beta>
+  <Category>Programming:</Category>
+  <Changes>
+  </Changes>
+</Containers>
