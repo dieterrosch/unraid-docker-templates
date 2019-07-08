@@ -11,7 +11,7 @@
   <Support>None</Support>
   <Registry>https://registry.hub.docker.com/</Registry>
   <GitHub>None</GitHub>
-  <Repository>python:3</Repository>
+  <Repository>python:2.7</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
