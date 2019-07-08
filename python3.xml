@@ -18,15 +18,10 @@
     <Mode>host</Mode>
   </Networking>
   <Environment>
-    <Variable>
-      <Name>SERVERIP</Name>
-      <Value></Value>
-    </Variable>
-    <Variable>
-      <Name>SERVERPORT</Name>
-      <Value>8080</Value>
-    </Variable>
-  </Environment>    
+  </Environment>
+  <ExtraParameters>
+  -it
+  </ExtraParameters>
   <Data>
     <Volume>
       <HostDir></HostDir>
