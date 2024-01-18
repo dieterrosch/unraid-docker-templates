@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Name>Python3-Runner</Name>
-  <Date>2019-07-08</Date>
+  <Name>Telltail</Name>
+  <Date>2024-01-18</Date>
   <Description>
-	Allows running of python 2 programs in a docker on Unraid.
+	Runs Telltail in a docker on Unraid.
   </Description>
   <Overview>
-	Allows running of python 2 programs in a docker on Unraid.
+	Allows running of Telltail in a docker on Unraid.
   </Overview>
   <Support>None</Support>
   <Registry>https://registry.hub.docker.com/</Registry>
   <GitHub>None</GitHub>
-  <Repository>python:2.7</Repository>
+  <Repository>alpine:3.19</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
@@ -28,11 +28,6 @@
       <ContainerDir>/code</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
-    <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/root/.config/yowsup/</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>	  
   </Data>
   <WebUI></WebUI>
   <Banner></Banner>
